@@ -1,0 +1,1 @@
+web: gunicorn --pythonpath hackpyapp_project hackpyapp_project.wsgi
