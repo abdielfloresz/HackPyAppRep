@@ -25,14 +25,10 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 ########## DATABASE CONFIGURATION
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#databases
 DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.postgresql_psycopg2",
-        "NAME": "hackpyapp_project",
-        "USER": "",
-        "PASSWORD": "",
-        "HOST": "localhost",
-        "PORT": "",
-    },
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'hackpyapp.sqlite',
+    }
 }
 ########## END DATABASE CONFIGURATION
 
